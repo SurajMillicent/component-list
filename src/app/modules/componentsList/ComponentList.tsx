@@ -9,6 +9,7 @@ import CheckedBox from "./checkedBox/CheckedBox";
 import Radio from "./radio/Radio";
 import DatePicker from "./datePicker/DatePicker";
 import UploadFile from "./uploadFile/UploadFile";
+import TableTemplate from "./table/TableTemplate";
 
 const componentsBreadCrumbs: Array<PageLink> = [
   {
@@ -120,6 +121,15 @@ const ComponentList = () => {
                   Upload
                 </PageTitle>
                 <UploadFile />
+              </>
+            }
+          />
+          <Route
+            path="table"
+            element={
+              <>
+                <PageTitle breadcrumbs={componentsBreadCrumbs}>Table</PageTitle>
+                <TableTemplate />
               </>
             }
           />

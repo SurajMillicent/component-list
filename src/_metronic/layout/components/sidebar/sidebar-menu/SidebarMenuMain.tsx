@@ -68,6 +68,11 @@ const SidebarMenuMain = () => {
           title="Upload"
           hasBullet={true}
         />
+        <SidebarMenuItem
+          to="/crafted/components/table"
+          title="Table"
+          hasBullet={true}
+        />
       </SidebarMenuItemWithSub>
       <SidebarMenuItemWithSub
         to="/crafted/pages"

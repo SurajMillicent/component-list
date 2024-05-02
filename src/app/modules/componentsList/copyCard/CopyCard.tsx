@@ -15,13 +15,17 @@ const CopyCard: React.FC<CopyCardProps> = ({ content }) => {
   };
 
   return (
-    <div className="copy-card">
-      <div className="copy-card-content">{content}</div>
-      {/* <code dangerouslySetInnerHTML={{ __html: content }} /> */}
-      <button className="copy-button" onClick={handleCopy}>
-        {copied ? "Copied!" : "Copy"}
-      </button>
-    </div>
+    <>
+      <div className="copy-card">
+        {/* <div className="copy-card-content">{content}</div> */}
+        <code>
+          <pre>{content}</pre>
+        </code>
+        <button className="copy-button" onClick={handleCopy}>
+          {copied ? "Copied!" : "Copy"}
+        </button>
+      </div>
+    </>
   );
 };
 
