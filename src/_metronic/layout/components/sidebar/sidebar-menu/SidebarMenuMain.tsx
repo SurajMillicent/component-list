@@ -73,6 +73,16 @@ const SidebarMenuMain = () => {
           title="Table"
           hasBullet={true}
         />
+        <SidebarMenuItem
+          to="/crafted/components/modal"
+          title="Modal"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/date-range"
+          title="Date Range Picker"
+          hasBullet={true}
+        />
       </SidebarMenuItemWithSub>
       <SidebarMenuItemWithSub
         to="/crafted/pages"

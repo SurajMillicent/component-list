@@ -20,8 +20,9 @@ const InputField = () => {
   
   export default FormInput;
 
-  SCSS:
-  $input-focus-color:#03fa24;
+  `;
+  const paragraphScssContent = `
+ $input-focus-color:#03fa24;
 $input-border-color:#d1d1d1;
 
 .form-input {
@@ -93,8 +94,7 @@ $input-border-color:#d1d1d1;
         background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(247, 247, 247, 0) 50%) !important;
     }
 }
-  `;
-
+ `;
   return (
     <div className="px-10 ">
       <div>
@@ -102,6 +102,10 @@ $input-border-color:#d1d1d1;
       </div>
       <div className="mt-5">
         <CopyCard content={paragraphContent} />
+      </div>
+      <label>SCSS:</label>
+      <div className="mt-5">
+        <CopyCard content={paragraphScssContent} />
       </div>
     </div>
   );

@@ -10,6 +10,8 @@ import Radio from "./radio/Radio";
 import DatePicker from "./datePicker/DatePicker";
 import UploadFile from "./uploadFile/UploadFile";
 import TableTemplate from "./table/TableTemplate";
+import CommonModal from "./modal/CommonModal";
+import DateRangePicker from "./dateRangePicker/DateRangePicker";
 
 const componentsBreadCrumbs: Array<PageLink> = [
   {
@@ -130,6 +132,26 @@ const ComponentList = () => {
               <>
                 <PageTitle breadcrumbs={componentsBreadCrumbs}>Table</PageTitle>
                 <TableTemplate />
+              </>
+            }
+          />
+          <Route
+            path="modal"
+            element={
+              <>
+                <PageTitle breadcrumbs={componentsBreadCrumbs}>Modal</PageTitle>
+                <CommonModal />
+              </>
+            }
+          />
+          <Route
+            path="date-range"
+            element={
+              <>
+                <PageTitle breadcrumbs={componentsBreadCrumbs}>
+                  Date Range Picker
+                </PageTitle>
+                <DateRangePicker />
               </>
             }
           />

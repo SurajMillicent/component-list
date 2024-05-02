@@ -1,0 +1,24 @@
+/* DateRangePicker.scss */
+
+.date-range-container {
+    position: relative;
+    border: 1px solid #000; /* border border-solid */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    border-radius: 9999px; /* rounded-full */
+    background-color: #fff; /* bg-white */
+    padding: 0.5rem 1rem; /* p-2 px-4 */
+    justify-content: center; /* justify-center */
+  }
+  
+  .calendar-wrapper {
+    position: absolute; 
+    z-index: 40; /* z-40 */
+    top: 4rem; /* top-16 */
+    left: 1rem; /* -left-52 */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* shadow-2xl */
+  }
+  
+  /* Add more styles as needed */
+  
