@@ -35,7 +35,37 @@ const SidebarMenuMain = () => {
         />
         <SidebarMenuItem
           to="/crafted/components/textArea"
-          title="Text area"
+          title="Text Area"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/dropDown"
+          title="Select"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/multiDropDown"
+          title="Multi Select"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/checkedBox"
+          title="Check Box"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/radio"
+          title="Radio Button"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/datepicker"
+          title="Datepicker"
+          hasBullet={true}
+        />
+        <SidebarMenuItem
+          to="/crafted/components/upload-file"
+          title="Upload"
           hasBullet={true}
         />
       </SidebarMenuItemWithSub>
