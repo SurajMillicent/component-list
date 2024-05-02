@@ -4,7 +4,7 @@ import "./_copyCard.scss";
 interface CopyCardProps {
   content: string;
 }
-
+//test
 const CopyCard: React.FC<CopyCardProps> = ({ content }) => {
   const [copied, setCopied] = useState(false);
 
